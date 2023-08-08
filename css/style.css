@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+header>h1{
+    height:100px;
+    line-height:100px;
+    text-align:center;
+}
+
+
+header>ul{
+    width:706px;
+    height:74px;
+    margin:0 auto; 
+}
+
+header>ul>li{
+    float:left;
+    width:74px;
+    height:74px;
+    margin-right:5px;
+}
+
+header>ul>li:last-child{margin-right:0;}
+
+header>ul>li>a{}
+
+header>ul>li>a>img{}
+
+div.clear{clear:both;}/*float의 영향력을 차단시키는 차단막*/
+
+section{
+    width:706px;
+    margin:5px auto 0;
+}
+
+section>img{width:100%;}
+
+
+
+
+
+
+
+
+
+
